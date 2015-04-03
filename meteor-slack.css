@@ -1,1 +1,42 @@
-/* CSS declarations go here */
+body {
+	background-color: #003366;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.col-md-3 {
+	background-color: #FFCC99;
+	height: 600px;
+}
+
+.col-md-9 {
+	background-color: #003366;
+	height: 600px;
+}
+
+.content {
+	height: 550px;
+	background-color: #E3F7F1;
+}
+
+.input-box {
+	margin-top: 20px;
+	height: 30px;
+}
+
+.input-box input {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+td.user {
+	width: 10%;
+	font-weight: bold;
+}
+
+td.message {
+	width: 90%
+}
